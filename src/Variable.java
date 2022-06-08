@@ -18,9 +18,9 @@ public class Variable {
         float distanceParcourus=90.6F;
         float temps=12.354F;
         double vitesseMoyenne=distanceParcourus/temps;
-        chaineDeCaractere
-                string prenom="Mansour"
-                char genre="M"
+       // chaineDeCaractere
+                //string prenom="Mansour";
+                // char genre="M";
 
 
 

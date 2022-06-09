@@ -2,8 +2,9 @@ public class Exercice4 {
     public static void main(String[] args) {
 
         // Ecrire un programme Java qui déclare 3 variables, a,b,c et qui va ensuite effectuer une permutation de ces valeurs :
+        //
 
-        int a=51;
+        int a=75;
         int b=876;
         int c=235;
         int d;

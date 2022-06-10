@@ -22,8 +22,12 @@ public class Exercice11 {
         } else {
             for (int i = 1; i <= nombre; i++) {
                 facto = facto * i;
-                System.out.printf("%d * ",i);
+                if (i==nombre){
+                    System.out.printf("%d  ",i);
+                } else
+                    System.out.printf("%d * ",i);
             }
+
             System.out.printf("\n Factorielle de %d est %d ", nombre, facto);
         }
     }

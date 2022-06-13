@@ -35,7 +35,7 @@ public class Exercice16 {
         }
 
         if (nombreDeFois==0){
-            System.out.println(" le nombre recherché n'existe pas dans le tableau \n");
+            System.out.println(" le nombre recherche n'existe pas dans le tableau \n");
         }else {
             System.out.printf("%d existe et se retrouve %d fois dans le tableau",nombreAChercher,nombreDeFois);
         }

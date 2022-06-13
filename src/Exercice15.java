@@ -8,7 +8,6 @@ public class Exercice15 {
         var input = new Scanner(System.in);
         int [] taille= new int[3];
 
-
         for(int i=0;i<= taille.length-1;i++){
             System.out.printf("Quelle est la taille de  tableau numero %d ?\n",i+1);
             taille[i]=input.nextInt();
@@ -20,7 +19,6 @@ public class Exercice15 {
 
         System.out.printf("Remplir svp le 1er tableau ? \n");
         for(int i=0;i<= taille[0]-1;i++){
-
             table1[i]=input.nextInt();
         }
 

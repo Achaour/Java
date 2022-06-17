@@ -1,5 +1,8 @@
 package poo;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -112,6 +115,12 @@ public class Main {
         System.out.println(rec.getLongueur());
         System.out.println(terrain.getLargeur());
         System.out.println(terrain.getLongueur());
+
+      //  System.out.println(rect);
+
+
+        ArrayList<String> fruits =new ArrayList<>(Arrays.asList("Pomme","Mangue","Orange"));
+
 
     }
 }

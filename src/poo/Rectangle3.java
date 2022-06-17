@@ -55,6 +55,13 @@ public class Rectangle3 {
             return 2*(longueur+largeur);
         }
 
+        public String toString(){
+            return  String.format("[ longueur : %f\nlargeur: %f\nSurface: " +
+                    "%f\nPerimetre :]",this.longueur,this.largeur,
+                    this.calculDeLaSurface(),this.calculDuPerimetre());
+
+        }
+
 
     }
 

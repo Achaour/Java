@@ -38,5 +38,13 @@ public class Patients {
 
     public float iMC(){
         return poids/(taille*taille);
+
+    }
+
+    public String toString() {
+
+        return String.format("Fiche patient : \n nom: %s\n nom: %s\nTaille: %s\nPoids: ",this.firstName,
+                this.lastName,this.taille,this.poids);
+
     }
 }

@@ -5,7 +5,6 @@ import java.util.LinkedHashMap;
 
 public class TP8 {
 
-
     public static ArrayList<Integer> pointFinalXY(String[] directions) {
 
         ArrayList<Integer> pointFinal = new ArrayList<>();
@@ -22,23 +21,15 @@ public class TP8 {
                 hmapStr.put(key, 1);
             }
         }
-
             pointFinal.add(hmapStr.get("droite") - hmapStr.get("gauche"));
             pointFinal.add(hmapStr.get("haut") - hmapStr.get("bas"));
-
-
             return pointFinal;
-
         }
 
     public static void main(String[] args) {
 
-
-
         String [] table= {"haut", "haut", "bas", "gauche", "gauche", "droite", "haut"};
 
         System.out.println(TP8.pointFinalXY(table));
-
     }
-
 }
